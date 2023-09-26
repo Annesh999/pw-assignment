@@ -1,0 +1,53 @@
+
+<!-- 2. Build an HTML page with multiple paragraphs, each assigned a unique class name. 
+Write CSS rules using class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and explain how you've named the classes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Example</title>
+    <style>
+        .paragraph.intro {
+    font-size: 18px;
+    color: gray
+}
+
+
+.paragraph.main-content {
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+.paragraph.conclusion 
+{
+    font-size: 14px;
+    font-style: italic;
+    color: red
+}
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Styling Paragraphs Using BEM</h1>
+
+    <!-- Paragraph 1 - Block:paragraph, Element:intro -->
+    <p class="paragraph intro">
+        This is the introductory paragraph.
+    </p>
+
+    <!-- Paragraph 2 - Block:paragraph, Element:main-content -->
+    <p class="paragraph main-content">
+        This is the main content paragraph.
+    </p>
+
+    <!-- Paragraph 3 - Block: paragraph,Element: conclusion -->
+    <p class="paragraph conclusion">
+        This is the concluding paragraph.
+    </p>
+</body>
+</html>
+
