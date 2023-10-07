@@ -1,0 +1,13 @@
+
+position Absolute:-
+
+Absolute positioning is used to precisely position an element on a web page.
+When an element is positioned absolutely, it is taken out of the normal document flow, which means it doesn't affect the layout of other elements on the page, and other elements act as if the absolute element doesn't exist.
+It is positioned relative to its closest positioned ancestor, or if none exists, it's positioned relative to the initial containing the viewport.
+You can use properties like top, right, bottom, and left to specify the exact pixel or percentage values for its position.
+
+
+Relative Positioning:-
+Relative positioning is used to nudge an element from its normal position without taking it out of the normal document flow.
+When you apply relative positioning to an element, it remains in the document flow, affecting the layout of surrounding elements as if it were still in its original position.
+It is often used in conjunction with properties like top, right, bottom, and left to adjust its position relative to where it would be in the normal 

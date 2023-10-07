@@ -1,0 +1,9 @@
+Absolute:-
+Absolute positioning refers to a CSS positioning scheme where an element is positioned relative to its closest positioned an ancestor element that has a positioning property other than static, such as relative, absolute, fixed, or sticky.
+The element is removed from the normal document flow, and its position is specified using properties like top, right, bottom, and left.
+Elements with absolute positioning are not affected by other elements, and they can overlap with other elements if their positions overlap.
+
+
+Relative:-Relative positioning refers to a CSS positioning scheme where an element is positioned relative to its normal position in the document flow.
+Unlike absolute positioning, the element's original space in the layout is preserved, and it can be shifted from its normal position using properties like top, right, bottom, and left.
+Elements with relative positioning can also affect the positioning of other elements around them.

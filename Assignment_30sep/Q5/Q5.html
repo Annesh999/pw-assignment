@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+          /* position: relative; */
+        }
+        .card{
+          width: 100px;
+          height: 100px;
+          border: 1px black solid;
+          position: absolute;
+        }
+        .A{
+            background-color: blueviolet;
+            top:4px;
+            left:4px;
+            z-index: 501;
+        }
+        .B{
+            background-color: rebeccapurple;
+            top:23px;
+            left:23px;
+        }
+        .C{
+            background-color: aqua;
+            top:40px;
+            left:40px;
+            z-index: 500;
+        }
+        .D{
+            background-color: blue;
+            top:60px;
+            left:60px;
+            /* z-index: 600; */
+        }
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="card A">1</div>
+        <div class="card B">2</div>
+        <div class="card C">3</div>
+        <div class="card D">4</div>
+
+    </div>
+</body>
+</html>
