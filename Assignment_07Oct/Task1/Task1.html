@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows: repeat(3,250px);
+            gap: 20px;
+            padding:20px;
+        }
+        .item-1{
+           grid-column-start: 1;
+           grid-column-end: 3;
+           grid-row-start: 1;
+           grid-row-end:2;
+        }
+        .item-2{
+            grid-column-start:2;
+            grid-column-end:3;
+            grid-row-start:2;
+            grid-row-end:3; 
+        }
+       .item-3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+       }
+      
+       .item-4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+       }
+       .item-5{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+       }
+       .item-6{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+       }
+       img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-1">
+            <img src="doc1.jpg" alt="">
+        </div>
+        <div class="item-2">
+            <img src="doc2.jpg" alt="">
+        </div>
+        <div class="item-3">
+            <img src="574512-adult-biology.jpg" alt="">
+        </div>
+        <div class="item-4">
+    <img src="535863-biology-biotechnology.jpg" alt="">
+        </div>
+        <div class="item-5">
+            <img src="1099049-blue-hospital-medicine-screenshot.jpg" alt="">
+        </div>
+       <div class="item-6">
+    <img src="5350489-shelf-bottle-glass-jar-label-medicine-gold-store-shop-apothocary-row-line-reflection-vintage-botle-old-apothecary-virginium-alexandrium-free-stock-photos.jpg" alt="">
+       </div>
+        </div>
+</body>
+</html>
