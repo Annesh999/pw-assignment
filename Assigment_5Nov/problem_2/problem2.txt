@@ -1,0 +1,7 @@
+The comma operator ( , ) in JavaScript is used to separate multiple expressions in a location where a 
+single expression is required. It evaluates each expression from left to right and returns the value of the 
+last expression.
+One common use case for the comma operator is in for loops. 
+for(int i=0;j=0;i<10;i++;j++){
+    cosole.log(i,j);
+}

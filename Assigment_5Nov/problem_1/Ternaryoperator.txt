@@ -1,0 +1,5 @@
+/*The ternary operator can replace if else statements in some cases. It can also be used to create cleaner, 
+easier-to-read lines of code. it is like a short hand property of if else condition.
+it is also nested like if else condition.
+syntax:(condition)?true:false
+*/
