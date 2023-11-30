@@ -1,0 +1,93 @@
+//  Conditional statements in JavaScript allow to execute specific blocks of code based on conditions. 
+//  If the condition meets then a particular block of action will be executed otherwise it will execute another
+//   block of action that satisfies that particular condition.
+
+// 1)if Statement
+
+  if(condition){ };
+  ex:- let num=2
+  if(num==2){
+    console.log(2)
+  }
+  
+2)if-else Statement
+
+syntax:-if(condition){ };
+  else{ }
+  ex:- let num=2
+  if(num==2){
+    console.log(2)
+  }
+  else{
+    console.log("wrong")
+  }
+
+3)else if Statement
+if(condition){ 
+
+};
+else if(){
+
+};
+  else{
+
+   }
+ex:-let num=2
+  if(num==2){
+    console.log(2)
+  }
+  else if(num==3){
+    console.log(3)
+  }
+else if(num==4){
+    console.log(4)
+  }
+else {
+    console.log("wrong)
+}
+
+4)switch Statement
+switch(value){
+   case 1: code;
+   break;
+
+   case 2:code;
+   break;
+
+   case 3:code;
+   break;
+
+   default:
+ex:-
+  let num=5;
+   switch (num) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+    default:
+    console.log("Try Again");
+     
+}
+}
+
+5)Ternary Operator
+(condition)? true:false
+let num=10;
+(num==9)? console.log(true) : console.log(false);
