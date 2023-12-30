@@ -1,0 +1,8 @@
+Q1. Explain What javascript is and its role in web development?
+
+JavaScript is a high-level scripting language central to web development. Executing in users' browsers, 
+it enables dynamic, interactive web pages by manipulating the Document Object Model (DOM) and responding to
+events. Asynchronous capabilities, AJAX, and frameworks like React or Angular enhance its functionality, 
+supporting the creation of seamless, responsive web applications. Additionally, JavaScript has expanded to
+server-side development with Node.js, providing a unified language for both client and server tasks. 
+Its versatility and widespread use make JavaScript a cornerstone technology for modern, engaging web experiences.
