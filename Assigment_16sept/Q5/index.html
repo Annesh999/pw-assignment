@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 300px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="for">
+      <form action="">
+        <label for="firstName"> FirstName: </label>
+        <input
+          id="firstName"
+          type="text"
+          required
+          placeholder="Alakh"
+          min="3"
+          max="20"
+        />
+        <br />
+
+        <label for="lastName"> LastName: </label>
+        <input
+          id="lastName"
+          type="text"
+          required
+          placeholder="pandey"
+          min="3"
+          max="20"
+        />
+        <br />
+        <label for="email"> Email: </label>
+        <input id="email" type="text" required placeholder="pandey@gmail.com" />
+        <br />
+        <label for="password"> Password: </label>
+        <input type="password" placeholder="******" id="password" required />
+        <br />
+
+        <label for="confirmPassword"> confirmPassword: </label>
+        <input
+          type="password"
+          placeholder="******"
+          id="confirmPassword"
+          required
+        />
+        <br />
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          placeholder="35"
+          id="age"
+          required
+          min="0"
+          max="150"
+        />
+        <br />
+        <label for="">Gender:</label>
+        <input type="radio" id="Male" value="Male" name="gender" />
+        <label for="Male">Male</label>
+
+        <input type="radio" id="Female" value="Female" name="gender" />
+        <label for="Female"> Female</label>
+
+        <input type="radio" id="Other" name="gender" />
+        <label for="Other">Other</label>
+        <br />
+        <label for="terms">terms:</label>
+        <input type="checkbox" name="terms" id="terms" />I agree to terms and
+        conditions
+
+        <button>Register</button>
+      </form>
+    </div>
+  </body>
+</html>

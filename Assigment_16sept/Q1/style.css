@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imageGallery{
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto ;  
+    padding: 10px;
+}
+
+#item{
+    grid-column: 3 / 5;
+}
