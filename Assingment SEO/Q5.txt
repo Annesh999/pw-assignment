@@ -1,0 +1,7 @@
+Define Favicon and give an illustrative example.
+
+
+A favicon, short for "favorite icon," is a small image or icon associated with a website that appears in the browser tab or next to the website's name in bookmarks. Favicon images are typically square and measure 16x16 pixels or 32x32 pixels. They serve as visual identifiers for websites, helping users recognize and distinguish between different tabs or bookmarks more easily.
+
+Illustrative Example:
+Consider a website for an online bookstore called "BookWorms." To enhance the website's branding and improve user experience, the web developer includes a favicon featuring a small image of an open book. This favicon appears in the browser tab whenever users visit the BookWorms website, making it easier for them to identify and locate the website among their open tabs. Additionally, when users bookmark the BookWorms website, the favicon also appears next to the bookmarked link, providing a visual representation of the website within their bookmarks list.
