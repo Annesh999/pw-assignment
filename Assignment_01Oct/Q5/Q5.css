@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; ;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 900px;
+    height: 90%;
+    border: 1px solid black;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+     padding: 30px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-bottom: 30px;
+
+}
+.navlist{
+    display: flex;
+  list-style: none;
+  gap: 6px;
+
+}
+.nav button{
+    padding:5px 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 9px; 
+}
+
+.icon{
+  width: 85px;
+}
+.heading h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+  }
+
+.heading p{
+ font-size: 20px;
+}
+.btns{
+    display: flex;
+    gap: 7px;
+    margin-top: 40px;
+}
+.btn{
+    margin-top: 15px;
+    padding: 4px 12px;
+    margin-bottom: 20PX;
+}
+
+
+
+.Travel{
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.to,.from{
+    display: flex;
+}
+
+
+.search_botton{
+   margin:0 0 0; 
+  background-color: greenyellow;
+   width: 380px;
+   color: white;
+   height: 45px;
+   font-weight: bold;
+   font-size: 20px;
+   border: none;
+} 

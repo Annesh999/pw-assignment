@@ -1,0 +1,11 @@
+flexbox:-
+i)Flexbox is designed for creating one-dimensional layouts.  which means it's concerned with laying out items along either a row (main axis) or a column (cross axis).
+ii) it ideal for building components like navigation menus, flexible content containers, or aligning items within a single axis.
+iii) provides powerful aligment capabilities for items along the main axis and cross axis,making it easy to center items or distribute space evenly.
+
+Grid:-
+i)Grid is designed for creating two-dimensional layouts. It allows you to define both rows and columns.which make it perfact for creating complex,grid-based layouts .
+ii)Gide provide extensive control over the placement and aligment of items within the grid cells,including both row and cloumns.
+iii)css grid is ideal for the complex designs like the magazine layouts,galleries,forms.
+
+we can combine both flexbox and grid with in a single layout.

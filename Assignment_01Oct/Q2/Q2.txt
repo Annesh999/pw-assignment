@@ -1,0 +1,24 @@
+align-items:-
+i)This property is used to control how flex items are aligned within their container along the
+ cross-axis.
+ ii)flex-start, flex-end, center, baseline, and stretch. It determines how items are aligned vertically 
+when the container's height is larger or smaller than the combined heights of its items.
+
+justify-content:-
+i)justify-content is used to control how flex items are distributed along the main axis.
+ii) flex-start, flex-end, center, space-between, space-around, and space-evenly. It determines the
+spacing and alignment of items along the horizontal (or vertical, depending on the flex-direction) axis.
+
+gap:
+i)The gap property is used to specify the space between flex items within a flex container.
+ It works similarly to the margin property but specifically for creating gaps between items.
+gap is part of the CSS Grid layout model as well and can be used with Flexbox to control the spacing between items.
+
+flex-direction:
+i)flex-direction is used to determine the direction in which flex items are laid out within the flex container.
+ii) row, row-reverse, column, and column-reverse. It controls whether items are arranged in a row (left to right), column (top to bottom) and reverse order.
+
+flex-wrap:
+
+i)This property controls whether flex items should wrap onto multiple lines if they don't fit within the flex container along the main axis.
+ii) nowrap (default), wrap (items wrap onto new lines as needed), and wrap-reverse (items wrap onto new lines in reverse order).
