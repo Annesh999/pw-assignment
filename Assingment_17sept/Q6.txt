@@ -1,0 +1,41 @@
+6:Create a simple web page which has a table. The table must have 2 columns HTML and HTML5. The table
+should include a minimum of three rows describing the differences between HTML and HTML5.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML vs HTML5</title>
+</head>
+<body>
+
+  <header>
+    <h1>Differences Between HTML and HTML5</h1>
+  </header>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>HTML</th>
+        <th>HTML5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HTML uses the <code>&lt;object&gt;</code> tag for embedding multimedia content like videos and audio.</td>
+        <td>HTML5 introduces the <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> tags for embedding multimedia content directly.</td>
+      </tr>
+      <tr>
+        <td>HTML does not support local storage for data persistence on the client side.</td>
+        <td>HTML5 introduces the <code>localStorage</code> and <code>sessionStorage</code> APIs for storing data in the browser.</td>
+      </tr>
+      <tr>
+        <td>HTML does not have native support for scalable vector graphics (SVG).</td>
+        <td>HTML5 provides native support for <code>&lt;svg&gt;</code> for scalable vector graphics, allowing for more interactive and dynamic graphics.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+Q5:Create a web page that highlights the features of HTML5. Use appropriate semantic tags to structure the
+content and showcase at least three key features of HTML5 with explanations.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Features</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Key Features of HTML5</h1>
+    <nav>
+      <ul>
+        <li><a href="#semantic-tags">Semantic Tags</a></li>
+        <li><a href="#audio-video">Audio and Video</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="semantic-tags">
+      <h2>1. Semantic Tags</h2>
+      <p>HTML5 introduced semantic elements like <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;section&gt;</code> to improve document structure and make content more accessible.</p>
+      <p>These tags make the content more meaningful, enhancing search engine optimization (SEO) and accessibility for screen readers.</p>
+    </section>
+
+    <section id="audio-video">
+      <h2>2. Native Audio and Video Support</h2>
+      <p>HTML5 provides built-in support for embedding audio and video without needing third-party plugins like Flash. The <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> tags allow seamless media integration.</p>
+      <p>Example:</p>
+      <video controls width="320" height="240">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>The above example demonstrates a video embedded directly into the HTML5 page.</p>
+    </section>
+
+     </main>
+
+  <footer>
+    <p>HTML5  </p>
+  </footer>
+
+</body>
+</html>

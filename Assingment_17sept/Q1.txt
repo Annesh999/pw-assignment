@@ -1,0 +1,15 @@
+1. List out the features of HTML5.
+
+Enhanced Multimedia Integration: HTML5 facilitates seamless integration of multimedia elements like audio and video directly into web pages, eliminating the need for plugins such as Flash.
+
+Introduction of Canvas Element: The <canvas> element in HTML5 empowers developers to create and manipulate dynamic, interactive graphics effortlessly within web pages.
+
+Geolocation API: HTML5 equips web applications with the Geolocation API, enabling them to access the user's location, paving the way for location-based services.
+
+Local Storage Capability: With the introduction of the localStorage API, HTML5 enables data storage on the user's device, reducing server round-trips and enhancing performance.
+
+Semantic Structural Elements: HTML5 introduces semantic elements like <header>, <footer>, <nav>, and <article>, simplifying content structuring and organization on web pages.
+
+Form Enhancements: HTML5 brings forth improved form functionalities, including new input types (e.g., date, time, color) and attributes (e.g., required, autofocus), enhancing user interaction.
+
+Accessibility Enhancement: HTML5 prioritizes accessibility, offering improved support for alternative text for images and enhanced compatibility with screen readers, ensuring a more inclusive browsing experience.
