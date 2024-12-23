@@ -1,0 +1,79 @@
+a {
+    color: red;
+  }
+  
+  h2:first-of-type {
+    color: white;
+    background-color: blue;
+  }
+  
+  p:first-of-type {
+    color: red;
+  }
+  
+  a[href] {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a.active {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  a[target="_self"] {
+    background-color: yellow;
+  }
+  
+  p:last-of-type::after {
+    content: "...";
+  }
+  
+  ul li::marker {
+    color: blue;
+  }
+  
+  p:nth-of-type(2)::first-letter {
+    color: red;
+    font-size: 30px;
+  }
+  /* Descendant combinator to remove list style type (bullet points) and text underline for the menu list items */
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  /* Child combinator to display the menu list items inline */
+  ul > li {
+    display: inline;
+  }
+  
+  /* Adjacent sibling combinator to apply margin between the menu list items */
+  ul li + li {
+    margin-left: 20px;
+  }
+  h2::before {
+    content: "Selector - "; 
+    color: blue;
+  }
+  
+  h2::after {
+    content: " pseudo"; 
+    color: red;
+  }
+  .style-button {
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: all 0.3s ease; 
+  }
+  
+  .style-button:hover {
+    background-color: #45a049; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    cursor: pointer; 
+  }
+  
