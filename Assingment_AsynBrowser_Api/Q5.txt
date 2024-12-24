@@ -1,0 +1,94 @@
+// List and briefly explain some common Browser APIs available to JavaScript developers.
+DOM API:
+What it does: Lets you interact with and change the content of a webpage (HTML).
+Example: Changing text on a webpage or handling button clicks.
+Example code:
+javascript
+Copy code
+document.getElementById('myButton').addEventListener('click', () => {
+  alert('Button clicked!');
+});
+2. Fetch API:
+What it does: Allows you to get data from the internet (like loading content from a server).
+Example: Fetching data from a server.
+Example code:
+javascript
+Copy code
+fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data));
+  
+3. LocalStorage API:
+What it does: Lets you store data in the browser that stays even when you refresh the page (permanent until deleted).
+Example: Saving a username so it stays after refreshing the page.
+Example code:
+javascript
+Copy code
+localStorage.setItem('username', 'john');
+console.log(localStorage.getItem('username'));
+
+4. SessionStorage API:
+What it does: Similar to LocalStorage, but data only stays for the current session (until you close the tab).
+Example: Storing data during a session like a shopping cart.
+Example code:
+javascript
+Copy code
+sessionStorage.setItem('cart', JSON.stringify([1, 2, 3]));
+console.log(sessionStorage.getItem('cart'));
+
+5. Geolocation API:
+What it does: Lets you get the user's location (latitude and longitude).
+Example: Finding the user's current location.
+Example code:
+javascript
+Copy code
+navigator.geolocation.getCurrentPosition(position => {
+  console.log(position.coords.latitude, position.coords.longitude);
+});
+
+6. Canvas API:
+What it does: Lets you draw graphics on the web, like shapes or images.
+Example: Drawing a rectangle on the screen.
+Example code:
+javascript
+Copy code
+const canvas = document.getElementById('myCanvas');
+const ctx = canvas.getContext('2d');
+ctx.fillRect(10, 10, 100, 100); 
+
+7. IndexedDB API:
+What it does: Allows you to store large amounts of data locally in the browser (like a database).
+Example: Storing user data for an offline app.
+Example code: Using IndexedDB to store and retrieve data.
+
+8. WebSockets API:
+What it does: Lets you create a real-time connection between the browser and the server (like for chat apps).
+Example: Sending and receiving messages in real time.
+Example code:
+javascript
+Copy code
+const socket = new WebSocket('ws://example.com/socket');
+socket.onmessage = (event) => console.log(event.data);
+
+9. Notification API:
+What it does: Lets you show notifications to users, even if they’re not on your webpage.
+Example: Sending a push notification.
+Example code:
+javascript
+Copy code
+if (Notification.permission === "granted") {
+  new Notification("You have a new message!");
+}
+10. File API:
+What it does: Allows you to work with files on the user’s computer (like reading files from an uploaded file input).
+Example: Reading a file uploaded by the user.
+Example code:
+javascript
+Copy code
+const input = document.getElementById('fileInput');
+input.addEventListener('change', () => {
+  const file = input.files[0];
+  const reader = new FileReader();
+  reader.readAsText(file);
+  reader.onload = () => console.log(reader.result);
+});

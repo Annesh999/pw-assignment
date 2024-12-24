@@ -1,0 +1,20 @@
+ localStorage:
+Purpose: localStorage is used to store data in the browser that stays even after the browser or tab is closed. The data remains until you manually delete it or clear the browser’s storage.
+When to use: When you want to save data that should persist across sessions (e.g., remembering a user's preferences or login state).
+Example: Saving a username so it stays even after the page is refreshed or the browser is closed:
+
+
+localStorage.setItem('username', 'john_doe');
+
+let username = localStorage.getItem('username');
+console.log(username); // Output: john_doe
+
+Use case: Keeping a user logged in across multiple visits to your website (until they log out).
+
+2. sessionStorage:
+Purpose: sessionStorage is used to store data only for the duration of the page session (as long as the browser tab is open). Once the tab is closed, the data is erased.
+When to use: When you want to store data temporarily, such as for the duration of a session, like a shopping cart during checkout.
+Example: Storing a temporary cart during a shopping session:
+sessionStorage.setItem('cart', JSON.stringify([1, 2, 3]));
+let cart = JSON.parse(sessionStorage.getItem('cart'));
+console.log(cart); // Output: [1, 2, 3]

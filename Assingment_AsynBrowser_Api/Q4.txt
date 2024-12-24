@@ -1,0 +1,31 @@
+Q4.Compare Promises to callbacks and discuss why Promises are preferred for managing asynchronous
+code.
+callback:
+-------------------------
+A callback is a function that is passed into another function to be executed later, 
+after an asynchronous task is done.
+
+Challenges with Callbacks:
+
+Callback Hell (Pyramid of Doom): Nested callbacks can become deeply indented, making the code hard to
+ read and maintain, especially when multiple asynchronous operations are chained.
+
+Error Handling: With callbacks, managing errors becomes tricky, especially in nested callbacks. You need to handle errors at every level of the callback chain.
+
+Inversion of Control: Callbacks can lead to a situation where the caller doesn't control when and how the callback is invoked, leading to potential issues with asynchronous flow.
+
+
+Promises:
+----------------------------------
+A Promise represents the eventual completion (or failure) of an asynchronous operation and its resulting
+ value. It provides a more structured way to manage asynchronous operations and simplifies chaining.
+
+Chaining: Promises allow you to chain multiple tasks one after the other using .then().
+
+
+Error Handling: You can handle errors at the end of the chain with .catch(), making it easier than
+ handling errors at each level like with callbacks.
+
+Readable Code: Promises avoid callback hell by making the code more flat and easier to read.
+
+Better Control: Promises have special methods like Promise.all() to handle multiple tasks at once, making it easier to manage many async operations.
